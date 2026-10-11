@@ -21,15 +21,6 @@ A frame-by-frame video player for animators, with a Maya-style timeline, smooth 
 
 Download `Core Player Setup x.y.z.exe` from Releases and run it. ffmpeg is bundled, nothing else to install. The installer is unsigned, so Windows SmartScreen may warn ("More info" → "Run anyway").
 
-## Build from source
-
-Requires [Node.js](https://nodejs.org) LTS.
-
-```
-npm install
-npm start          # run
-npm run build      # installer in dist/
-```
 
 ## Shortcuts
 
@@ -46,10 +37,10 @@ npm run build      # installer in dist/
 
 ## Maya / Blender sync
 
-Core Player listens on `127.0.0.1:45821` (local machine only). The scripts in `dcc/` connect to it; whichever program changes the frame, the others follow.
+Core Player listens on `127.0.0.1:45821` (local machine only). The scripts in connect to it; whichever program changes the frame, the others follow.
 
-- **Maya:** paste `dcc/maya_core_player.py` into the Script Editor (Python tab) and run it. Call `core_player_stop()` to disconnect.
-- **Blender:** Edit → Preferences → Add-ons → Install, select `dcc/blender_core_player.py`, enable it.
+- **Maya:** paste `maya_core_player.py` into the Script Editor (Python tab) and run it. Call `core_player_stop()` to disconnect.
+- **Blender:** Edit → Preferences → Add-ons → Install, select `blender_core_player.py`, enable it.
 
 The dot on the **Sync** button is green when connected, orange if the fps of the video and the program differ. Click it to turn sync on/off. Set **File → Start frame** to match your scene's first frame.
 
