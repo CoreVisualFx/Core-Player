@@ -1,5 +1,9 @@
 # Core Player
 
+<img width="948" height="676" alt="image" src="https://github.com/user-attachments/assets/fff9492a-8231-4751-bbba-7a8e42799503" />
+
+
+
 Just Install as administrator
 
 A frame-by-frame video player for animators, with a Maya-style timeline, smooth scrubbing, and two-way frame sync with Maya and Blender. Windows desktop app (Electron).
@@ -51,7 +55,3 @@ Protocol: one JSON object per line, e.g. `{"t":"frame","f":120,"fps":24}`. Other
 ## Third-party software
 
 ffmpeg is bundled through the [`ffmpeg-static`](https://www.npmjs.com/package/ffmpeg-static) package. The ffmpeg build it ships is licensed under the GPL (it includes x264). If you redistribute Core Player, check the license terms of ffmpeg and include the required notices.
-
-## License
-
-Add your own license here (for example MIT for the app code). This choice is yours.
