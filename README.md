@@ -1,5 +1,7 @@
 # Core Player
 
+Just Install as administrator
+
 A frame-by-frame video player for animators, with a Maya-style timeline, smooth scrubbing, and two-way frame sync with Maya and Blender. Windows desktop app (Electron).
 
 > Status: early version. Built and used on Windows. Not extensively tested on all video formats or software versions.
